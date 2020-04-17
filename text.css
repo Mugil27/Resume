@@ -1,0 +1,239 @@
+<style>
+    body{
+   background-position-x: right;     
+    }
+    {
+      font-family:"Courier New",'Courier New', Courier, monospace;
+    }
+    .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    width: 350px;
+    display: none;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+      
+      #sidenav{
+        height: 100%;
+        width: 20%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color:#bd5d38;
+        overflow-x: hidden;
+        padding-top: 250px;
+        
+        
+      }
+      #sidenav a {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        color: whitesmoke;
+        display: block;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        text-align: center;
+        overflow-x: hidden;
+      }
+      .sidenav a:hover{
+        columns: #f1f1f1;
+      }
+      h5,h4,h1{
+        text-transform: uppercase;
+      }
+      h5{
+        color: #b2b5b2;
+      }
+      h6{
+        font-size: medium;
+        color: #b2b5b2;
+      }
+      p1{
+        font-size: medium;
+        padding-top: -20px;
+      }
+      .date1{
+        font-size: x-small;
+        padding-left:  400px;
+        text-align: right;
+        color:#bd5d38;
+      }
+      .date2{
+        font-size: x-small;
+        padding-left:  299px;
+        text-align: right;
+        color:#bd5d38;
+      }
+      .date3{
+        font-size: x-small;
+        padding-left:  420px;
+        text-align: right;
+        color:#bd5d38;
+      }
+      .date4{
+        font-size: x-small;
+        padding-left:  420px;
+        text-align: right;
+        color:#bd5d38;
+  
+      }
+      .paragraph{
+        font-size: 15px;
+        margin-top: 50px;
+        padding-top:5rem!important;
+      }
+  
+      .main,.main2{
+        margin-left: 250px;
+        width: 75%;
+        font-size: 25px;
+        padding: 0px 20px;
+        height: 100%;
+        background-position-x: right;
+        position: 
+       
+        
+        }
+        #heading{
+          margin-top: 100px;
+          padding: 0px 10px;
+          font-size: 30px;
+          height: 2px;
+          
+        }
+      
+          @media  screen and (max-width: 720px){
+          #sidenav{
+  
+            display: none;
+          }
+          .main2,.main{
+          margin: 1px;
+        width: 80%;
+        font-size: 20px;
+        padding: 0px 20px;
+        height: 100%;
+          }
+          .topnav {
+    overflow: hidden;
+    background-color: #b2b5b2;
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: -8px;
+    margin-left: -6px;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: #824027;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+     background-color: #b2b5b2;
+    
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: -24px;
+    color: #824027;
+    font-size: 17px;
+    width: 1px;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    background-color: #824027;
+    color: #824027;
+    opacity: 0.7 ;
+  }
+  
+  .active {
+    background-color: #b2b5b2;
+    color: #b2b5b2;
+  }
+      }
+        img{
+          border-radius: 50%;
+          padding: 0 75px;
+          width: 130px;
+          height: 130px;
+          margin-top: -500px;
+        }
+        .a,.b,.c{
+          line-height:1;
+         }
+        .m{
+          margin-top: 300px;
+        }
+        .d{
+          line-height:1%;
+          margin-top: -50px;
+        }
+        .head{
+          color:#bd5d38!important}a{color:#bd5d38}a:active,a:focus,a:hover{color:#824027}
+        }
+        .subheading{
+        
+          padding: 0px 100px;
+        
+        }
+        .fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 12px;
+    text-align: top;
+    text-decoration: none;
+    background-color: #b2b5b2;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  h3{
+    margin-top: 200px;
+  
+  }
+    </style>
+  
